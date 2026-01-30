@@ -45,12 +45,8 @@
 - Downtime Cost, Quality Cost
 
 **Liens** :
-- 📂 [Dossier Scenario 2](../Scenario%202-%20Maintenance%20supply/)
-- 📄 [README](../Scenario%202-%20Maintenance%20supply/README.md)
-- 🔧 [Corrections & Fixes](../Scenario%202-%20Maintenance%20supply/docs/CORRECTIONS_SCENARIO.md)
-- 📊 [Mesures DAX](../Scenario%202-%20Maintenance%20supply/docs/dax_measures.md)
-- 🧪 [Validation Script](../Scenario%202-%20Maintenance%20supply/src/validate_schema.py)
-- 🤖 [Data Agent Instructions](../Scenario%202-%20Maintenance%20supply/docs/data_agent_instructions_clean.md)
+- 📂 [Dossier Scenario 2](https://github.com/EtienneSIG/MF_SupplyMaintenance)
+
 
 **Persona Data Agent** : Production & Maintenance Analyst
 
@@ -73,14 +69,7 @@
 - Attribution Last-Touch (14 jours)
 
 **Liens** :
-- 📂 [Dossier Scenario 3](../Scenario%203%20-%20Marketing%20Campagn/)
-- 📄 [README](../Scenario%203%20-%20Marketing%20Campagn/README.md)
-- 🔧 [Corrections & Fixes](../Scenario%203%20-%20Marketing%20Campagn/docs/CORRECTIONS_SCENARIO.md)
-- 📊 [Mesures DAX](../Scenario%203%20-%20Marketing%20Campagn/docs/dax_measures.md)
-- 🧪 [Validation Script](../Scenario%203%20-%20Marketing%20Campagn/src/validate_schema.py)
-- 🤖 [Data Agent Instructions](../Scenario%203%20-%20Marketing%20Campagn/docs/data_agent_instructions_clean.md)
-- 📋 [Summary Corrections](../Scenario%203%20-%20Marketing%20Campagn/docs/SUMMARY.md)
-- 🚀 [Quickstart Guide](../Scenario%203%20-%20Marketing%20Campagn/QUICKSTART_CORRECTIONS.md)
+- 📂 [Dossier Scenario 3](https://github.com/EtienneSIG/MF_MarketingCampaign)
 
 **Persona Data Agent** : Marketing & CRM Analyst
 
@@ -101,12 +90,8 @@
 - Accounts Receivable, Collection Rate
 
 **Liens** :
-- 📂 [Dossier Scenario 4](../Scenario%204%20-%20Finance/)
-- 📄 [README](../Scenario%204%20-%20Finance/README.md)
-- 🔧 [Corrections & Fixes](../Scenario%204%20-%20Finance/docs/CORRECTIONS_SCENARIO.md)
-- 📊 [Mesures DAX](../Scenario%204%20-%20Finance/docs/dax_measures.md)
-- 🧪 [Validation Script](../Scenario%204%20-%20Finance/src/validate_schema.py)
-- 🤖 [Data Agent Instructions](../Scenario%204%20-%20Finance/docs/data_agent_instructions_clean.md)
+- 📂 [Dossier Scenario 4](https://github.com/EtienneSIG/MF_Finance)
+
 
 **Persona Data Agent** : Finance Controller
 
@@ -130,11 +115,7 @@
 
 **Liens** :
 - 📂 [Dossier Scenario 5](../Scenario%205%20-%20ESG/)
-- 📄 [README](../Scenario%205%20-%20ESG/README.md)
-- 🔧 [Corrections & Fixes](../Scenario%205%20-%20ESG/docs/CORRECTIONS_SCENARIO.md)
-- 📊 [Mesures DAX](../Scenario%205%20-%20ESG/docs/dax_measures.md)
-- 🧪 [Validation Script](../Scenario%205%20-%20ESG/src/validate_schema.py)
-- 🤖 [Data Agent Instructions](../Scenario%205%20-%20ESG/docs/data_agent_instructions_clean.md)
+
 
 **Persona Data Agent** : ESG & Sustainability Manager
 
@@ -290,6 +271,7 @@ Pour questions sur les scénarios :
 ---
 
 *Démonstrations Microsoft Fabric - Customer 360, Production, Marketing, Finance & ESG*
+
 
 
 
