@@ -23,12 +23,8 @@
 - Repeat Call Rate
 
 **Liens** :
-- 📂 [Dossier Scenario 1](../Scenario%201-%20Call%20center/)
-- 📄 [README](../Scenario%201-%20Call%20center/README.md)
-- 🔧 [Corrections & Fixes](../Scenario%201-%20Call%20center/docs/CORRECTIONS_SCENARIO.md)
-- 📊 [Mesures DAX](../Scenario%201-%20Call%20center/docs/dax_measures.md)
-- 🧪 [Validation Script](../Scenario%201-%20Call%20center/src/validate_schema.py)
-- 🤖 [Data Agent Instructions](../Scenario%201-%20Call%20center/docs/data_agent_instructions_clean.md)
+- 📂 [Dossier Scenario 1]([https://github.com/EtienneSIG/MF_CallCenter](https://github.com/EtienneSIG/MF_CallCenter))
+
 
 **Persona Data Agent** : Call Center Analyst
 
@@ -294,4 +290,5 @@ Pour questions sur les scénarios :
 ---
 
 *Démonstrations Microsoft Fabric - Customer 360, Production, Marketing, Finance & ESG*
+
 
