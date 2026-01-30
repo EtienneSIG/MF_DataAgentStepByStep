@@ -23,7 +23,7 @@
 - Repeat Call Rate
 
 **Liens** :
-- 📂 [Dossier Scenario 1]([https://github.com/EtienneSIG/MF_CallCenter](https://github.com/EtienneSIG/MF_CallCenter))
+- 📂 [Dossier Scenario 1](https://github.com/EtienneSIG/MF_CallCenter)
 
 
 **Persona Data Agent** : Call Center Analyst
@@ -290,5 +290,6 @@ Pour questions sur les scénarios :
 ---
 
 *Démonstrations Microsoft Fabric - Customer 360, Production, Marketing, Finance & ESG*
+
 
 
