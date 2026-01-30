@@ -294,3 +294,4 @@ Pour questions sur les scénarios :
 ---
 
 *Démonstrations Microsoft Fabric - Customer 360, Production, Marketing, Finance & ESG*
+
