@@ -114,7 +114,7 @@
 - Renewable Energy %, Supplier Risk Exposure
 
 **Liens** :
-- 📂 [Dossier Scenario 5](../Scenario%205%20-%20ESG/)
+- 📂 [Dossier Scenario 5](https://github.com/EtienneSIG/MF_ESG)
 
 
 **Persona Data Agent** : ESG & Sustainability Manager
@@ -271,6 +271,7 @@ Pour questions sur les scénarios :
 ---
 
 *Démonstrations Microsoft Fabric - Customer 360, Production, Marketing, Finance & ESG*
+
 
 
 
