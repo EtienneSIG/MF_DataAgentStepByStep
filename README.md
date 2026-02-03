@@ -1,6 +1,6 @@
 # Microsoft Fabric - Démos Customer 360 & ESG
 
-**5 scénarios de démonstration** illustrant les capacités de Microsoft Fabric :
+**10 scénarios de démonstration** illustrant les capacités de Microsoft Fabric :
 - OneLake + Shortcuts
 - AI Shortcut Transformations (texte → données structurées)
 - Fabric Data Agent (questions en langage naturel)
@@ -8,9 +8,33 @@
 
 ---
 
-## 📞 Scenario 1 - Call Center & Customer Service
+## � Tableau Récapitulatif des Scénarios
 
-**Cas d'usage** : Customer 360 avec analyse des appels clients
+| # | Scénario | Cas d'Usage | Volumes Données | Métriques Clés | Persona | Documentation |
+|---|----------|-------------|-----------------|----------------|---------|---------------|
+| **1** | **📞 Call Center** | Customer 360 + analyse appels | • 1K clients<br>• 15K commandes<br>• 2K appels<br>• 15 agents | • CSAT (70-80%)<br>• FCR (~70%)<br>• AHT<br>• Repeat Call Rate | Call Center Analyst | [📂 Dossier](https://github.com/EtienneSIG/MF_CallCenter) |
+| **2** | **🏭 Production** | Monitoring production + maintenance | • 3 plants, 6 lines<br>• 100 assets<br>• 4K batches<br>• 300 work orders | • OEE (75-80%)<br>• MTTR (100-120min)<br>• MTBF<br>• Downtime Cost | Production & Maintenance Analyst | [📂 Dossier](https://github.com/EtienneSIG/MF_SupplyMaintenance)|
+| **3** | **📧 Marketing** | Attribution marketing + ROI | • 10K customers<br>• 60 campaigns<br>• 150K sends<br>• 50K orders | • Campaign ROI (+100-500%)<br>• Open Rate (~22%)<br>• CTR, Conversion<br>• CLV | Marketing & CRM Analyst | [📂 Dossier](https://github.com/EtienneSIG/MF_MarketingCampaign)|
+| **4** | **💰 Finance** | P&L + Budget vs Actual | • Actuals, Budget<br>• Invoices, Payments<br>• Cost Centers | • Gross Margin (40-45%)<br>• EBITDA, Net Income<br>• Budget Variance<br>• DSO (30-45 days) | Finance Controller | [📂 Dossier](https://github.com/EtienneSIG/MF_Finance)|
+| **5** | **🌱 ESG** | Carbon footprint + sustainability | • Scope 1/2/3<br>• 10 sites, 5 ans<br>• 100 suppliers<br>• Audits | • Carbon Footprint (CO2e)<br>• Carbon Intensity<br>• Renewable Energy %<br>• Supplier Risk | ESG & Sustainability Manager | [📂 Dossier](https://github.com/EtienneSIG/MF_ESG) |
+| **10** | **👥 HR Analytics** | Employee lifecycle (hire to retire) | • 500 employees<br>• 4K events<br>• 2.5K trainings<br>• 200+ rapports | • Attrition (12-13%)<br>• Promotion Rate (10%)<br>• Training/FTE (42h)<br>• Mobility (14-15%) | HR Analytics AI Assistant | [📂 Dossier](https://github.com/EtienneSIG/MF_HR))|
+
+---
+
+## 🎯 Points Forts par Scénario
+
+| Scénario | Fonctionnalités Clés |
+|----------|----------------------|
+| **Call Center** | • AI Transformations sur transcripts d'appels<br>• Analyse sentiment + PII redaction<br>• Customer 360 avec historique commandes |
+| **Production** | • OEE monitoring temps réel<br>• Maintenance prédictive<br>• Cost analysis (downtime, quality) |
+| **Marketing** | • Attribution marketing multi-touch<br>• ROI campaigns avec drill-down<br>• CLV prediction + segmentation |
+| **Finance** | • Budget variance analysis<br>• Cash flow forecasting<br>• P&L drill-down par cost center |
+| **ESG** | • Scope 1/2/3 emissions tracking<br>• Supplier risk scoring<br>• Carbon intensity KPIs + targets |
+| **HR Analytics** | • SCD Type 2 employee tracking<br>• AI exit interview analysis<br>• Predictive attrition + retention ROI<br>• Cohorte analysis (tenure, promotions) |
+
+---
+
+## 🛠️ Corrections Appliquées (Tous Scénarios)
 
 **Données** :
 - **Commerce** : 1 000 clients, 800 produits, 15 000 commandes
@@ -23,8 +47,12 @@
 - Repeat Call Rate
 
 **Liens** :
-- 📂 [Dossier Scenario 1](https://github.com/EtienneSIG/MF_CallCenter)
-
+- 📂 [Dossier Scenario 1](../Scenario%201-%20Call%20center/)
+- 📄 [README](../Scenario%201-%20Call%20center/README.md)
+- 🔧 [Corrections & Fixes](../Scenario%201-%20Call%20center/docs/CORRECTIONS_SCENARIO.md)
+- 📊 [Mesures DAX](../Scenario%201-%20Call%20center/docs/dax_measures.md)
+- 🧪 [Validation Script](../Scenario%201-%20Call%20center/src/validate_schema.py)
+- 🤖 [Data Agent Instructions](../Scenario%201-%20Call%20center/docs/data_agent_instructions_clean.md)
 
 **Persona Data Agent** : Call Center Analyst
 
@@ -45,8 +73,12 @@
 - Downtime Cost, Quality Cost
 
 **Liens** :
-- 📂 [Dossier Scenario 2](https://github.com/EtienneSIG/MF_SupplyMaintenance)
-
+- 📂 [Dossier Scenario 2](../Scenario%202-%20Maintenance%20supply/)
+- 📄 [README](../Scenario%202-%20Maintenance%20supply/README.md)
+- 🔧 [Corrections & Fixes](../Scenario%202-%20Maintenance%20supply/docs/CORRECTIONS_SCENARIO.md)
+- 📊 [Mesures DAX](../Scenario%202-%20Maintenance%20supply/docs/dax_measures.md)
+- 🧪 [Validation Script](../Scenario%202-%20Maintenance%20supply/src/validate_schema.py)
+- 🤖 [Data Agent Instructions](../Scenario%202-%20Maintenance%20supply/docs/data_agent_instructions_clean.md)
 
 **Persona Data Agent** : Production & Maintenance Analyst
 
@@ -69,7 +101,14 @@
 - Attribution Last-Touch (14 jours)
 
 **Liens** :
-- 📂 [Dossier Scenario 3](https://github.com/EtienneSIG/MF_MarketingCampaign)
+- 📂 [Dossier Scenario 3](../Scenario%203%20-%20Marketing%20Campagn/)
+- 📄 [README](../Scenario%203%20-%20Marketing%20Campagn/README.md)
+- 🔧 [Corrections & Fixes](../Scenario%203%20-%20Marketing%20Campagn/docs/CORRECTIONS_SCENARIO.md)
+- 📊 [Mesures DAX](../Scenario%203%20-%20Marketing%20Campagn/docs/dax_measures.md)
+- 🧪 [Validation Script](../Scenario%203%20-%20Marketing%20Campagn/src/validate_schema.py)
+- 🤖 [Data Agent Instructions](../Scenario%203%20-%20Marketing%20Campagn/docs/data_agent_instructions_clean.md)
+- 📋 [Summary Corrections](../Scenario%203%20-%20Marketing%20Campagn/docs/SUMMARY.md)
+- 🚀 [Quickstart Guide](../Scenario%203%20-%20Marketing%20Campagn/QUICKSTART_CORRECTIONS.md)
 
 **Persona Data Agent** : Marketing & CRM Analyst
 
@@ -90,8 +129,12 @@
 - Accounts Receivable, Collection Rate
 
 **Liens** :
-- 📂 [Dossier Scenario 4](https://github.com/EtienneSIG/MF_Finance)
-
+- 📂 [Dossier Scenario 4](../Scenario%204%20-%20Finance/)
+- 📄 [README](../Scenario%204%20-%20Finance/README.md)
+- 🔧 [Corrections & Fixes](../Scenario%204%20-%20Finance/docs/CORRECTIONS_SCENARIO.md)
+- 📊 [Mesures DAX](../Scenario%204%20-%20Finance/docs/dax_measures.md)
+- 🧪 [Validation Script](../Scenario%204%20-%20Finance/src/validate_schema.py)
+- 🤖 [Data Agent Instructions](../Scenario%204%20-%20Finance/docs/data_agent_instructions_clean.md)
 
 **Persona Data Agent** : Finance Controller
 
@@ -114,14 +157,67 @@
 - Renewable Energy %, Supplier Risk Exposure
 
 **Liens** :
-- 📂 [Dossier Scenario 5](https://github.com/EtienneSIG/MF_ESG)
-
+- 📂 [Dossier Scenario 5](../Scenario%205%20-%20ESG/)
+- 📄 [README](../Scenario%205%20-%20ESG/README.md)
+- 🔧 [Corrections & Fixes](../Scenario%205%20-%20ESG/docs/CORRECTIONS_SCENARIO.md)
+- 📊 [Mesures DAX](../Scenario%205%20-%20ESG/docs/dax_measures.md)
+- 🧪 [Validation Script](../Scenario%205%20-%20ESG/src/validate_schema.py)
+- 🤖 [Data Agent Instructions](../Scenario%205%20-%20ESG/docs/data_agent_instructions_clean.md)
 
 **Persona Data Agent** : ESG & Sustainability Manager
 
 ---
 
-## 🛠️ Corrections Appliquées (Tous Scénarios)
+## � Scenario 10 - HR Employee Lifecycle Analytics
+
+**Cas d'usage** : Analyse complète du cycle de vie des employés
+
+**Données** :
+- **HR Core** : ~500 employees (actifs + historique), 12 departments, 45 positions
+- **Lifecycle Events** : 4 000 événements (embauches, promotions, mutations, départs)
+- **Compensation** : 1 500 historiques de salaires
+- **Training** : 2 500 formations (42h/FTE moyenne)
+- **Absences** : 3 000 enregistrements (congés, maladie)
+- **HR Cases** : 150 cas (conflits, disciplinaires, réclamations)
+- **Rapports Texte** : 200+ rapports (exit interviews, performance reviews, AI Transformations)
+
+**Métriques clés** :
+- Headcount & Headcount Growth Rate
+- Attrition Rate (global, voluntary, involuntary)
+- Promotion Rate, Internal Mobility Rate
+- Training Hours per FTE, Training ROI
+- Avg Time to Promotion, Avg Case Resolution Time
+- Absence Rate per FTE
+
+**Architecture** :
+- **Medallion** : Bronze (8 CSV raw) → Silver (4 dimensions SCD Type 2) → Gold (6 fact tables)
+- **AI Transformations** : PII redaction + text summarization sur rapports RH
+- **Star Schema** : dim_employee (SCD2), dim_department, dim_position, dim_date + 6 fact tables
+
+**Liens** :
+- 📂 [Dossier Scenario 10](./Scenario%2010%20-%20HR/)
+- 📄 [README](./Scenario%2010%20-%20HR/README.md)
+- 📊 [Schéma Complet](./Scenario%2010%20-%20HR/docs/schema.md)
+- 🎯 [Mesures DAX](./Scenario%2010%20-%20HR/docs/dax_measures.md)
+- 🧪 [Validation Script](./Scenario%2010%20-%20HR/src/validate_schema.py)
+- 🤖 [Data Agent Instructions](./Scenario%2010%20-%20HR/docs/data_agent_instructions.md)
+- 📚 [20 Exemples Questions/Réponses](./Scenario%2010%20-%20HR/docs/data_agent_examples.md)
+- 🎤 [15 Questions Démo "Wow"](./Scenario%2010%20-%20HR/docs/questions_demo.md)
+- 🎬 [Démo Story Narrative](./Scenario%2010%20-%20HR/docs/demo_story.md)
+- ⚙️ [Guide Setup Fabric](./Scenario%2010%20-%20HR/docs/fabric_setup.md)
+
+**Persona Data Agent** : HR Analytics AI Assistant
+
+**Points forts** :
+- ✨ SCD Type 2 sur dim_employee (tracking historique complet)
+- ✨ AI redaction PII (RGPD-compliant) + summarization des exit interviews
+- ✨ Analyse prédictive : risque de départ, segmentation rétention, ROI budgets
+- ✨ Cohorte analysis : attrition par année d'embauche, progression de carrière
+- ✨ 30+ mesures DAX : Attrition, Promotion Rate, Training ROI, Mobility, etc.
+
+---
+
+## �🛠️ Corrections Appliquées (Tous Scénarios)
 
 Suite aux retours de démo, **3 problèmes identifiés et corrigés** :
 
@@ -237,6 +333,10 @@ Si fichiers TXT existants :
 | Finance | DSO | ~30-45 days |
 | ESG | Scope 3 % | ~70-80% du total |
 | ESG | Renewable Energy % | ~25-35% (en progression) |
+| HR | Attrition Rate | ~12-13% (benchmark < 15%) |
+| HR | Promotion Rate | ~10% (benchmark 8-10%) |
+| HR | Training Hours/FTE | ~42h (benchmark ≥ 40h) |
+| HR | Internal Mobility Rate | ~14-15% (sain: 10-15%) |
 
 ---
 
@@ -271,8 +371,3 @@ Pour questions sur les scénarios :
 ---
 
 *Démonstrations Microsoft Fabric - Customer 360, Production, Marketing, Finance & ESG*
-
-
-
-
-
