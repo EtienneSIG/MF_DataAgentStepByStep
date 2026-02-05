@@ -1,6 +1,6 @@
 # Microsoft Fabric - Démos Customer 360 & ESG
 
-**12 scénarios de démonstration** illustrant les capacités de Microsoft Fabric :
+**13 scénarios de démonstration** illustrant les capacités de Microsoft Fabric :
 - OneLake + Shortcuts
 - AI Shortcut Transformations (texte → données structurées)
 - Fabric Data Agent (questions en langage naturel)
@@ -18,7 +18,8 @@
 | **4** | **💰 Finance** | P&L + Budget vs Actual | • Actuals, Budget<br>• Invoices, Payments<br>• Cost Centers | • Gross Margin (40-45%)<br>• EBITDA, Net Income<br>• Budget Variance<br>• DSO (30-45 days) | Finance Controller | [📂 Dossier](https://github.com/EtienneSIG/MF_Finance)|
 | **5** | **🌱 ESG** | Carbon footprint + sustainability | • Scope 1/2/3<br>• 10 sites, 5 ans<br>• 100 suppliers<br>• Audits | • Carbon Footprint (CO2e)<br>• Carbon Intensity<br>• Renewable Energy %<br>• Supplier Risk | ESG & Sustainability Manager | [📂 Dossier](https://github.com/EtienneSIG/MF_ESG) |
 | **6** | **💻 IT Ops & FinOps** | Cloud cost optimization + performance | • 500 resources<br>• 5K users<br>• 500K cost events<br>• 300 incidents | • Cost per Resource<br>• WAU (Weekly Active Users)<br>• MTTR Incidents<br>• Anomaly Detection | Cloud FinOps Analyst | [📂 Dossier](https://github.com/EtienneSIG/MF_ITOps) |
-| **7** | **📱 Product Analytics** | Product usage + churn prediction | • 500 accounts<br>• 5K users<br>• 50 features<br>• 500K usage events<br>• 1K feedbacks | • Churn Rate (50% Pro)<br>• MRR (~$300K)<br>• DAU/MAU Stickiness<br>• Feature Adoption<br>• NPS Score | Product Analyst | [📂 Dossier](https://github.com/EtienneSIG/MF_ProductUsage) |
+| **7** | **📱 Product Analytics** | Product usage + churn prediction | • 500 accounts<br>• 5K users<br>• 50 features<br>• 500K usage events<br>• 1K feedbacks | • Churn Rate (50% Pro)<br>• MRR (~$300K)<br>• DAU/MAU Stickiness<br>• Feature Adoption<br>• NPS Score | Product Analyst | [📂 Dossier](../MF_Product) |
+| **8** | **⚖️ Risk & Compliance** | Risk management + audit compliance | • 150 controls<br>• 3K executions<br>• 200 incidents<br>• 100 vendors<br>• 100 audit reports | • Compliance Rate (~90%)<br>• MTTR by Severity<br>• Vendor Risk Score<br>• Incident Trends | Risk & Compliance Manager | [📂 Dossier](../MF_RiskComplianceAudit) |
 | **10** | **👥 HR Analytics** | Employee lifecycle (hire to retire) | • 500 employees<br>• 4K events<br>• 2.5K trainings<br>• 200+ rapports | • Attrition (12-13%)<br>• Promotion Rate (10%)<br>• Training/FTE (42h)<br>• Mobility (14-15%) | HR Analytics AI Assistant | [📂 Dossier](https://github.com/EtienneSIG/MF_HR)|
 
 ---
@@ -34,6 +35,7 @@
 | **ESG** | • Scope 1/2/3 emissions tracking<br>• Supplier risk scoring<br>• Carbon intensity KPIs + targets |
 | **IT Ops & FinOps** | • Multi-cloud cost aggregation (Azure, AWS, GCP)<br>• Anomaly detection sur coûts<br>• Incident correlation avec coûts<br>• User activity monitoring (WAU, engagement) |
 | **Product Analytics** | • Churn prediction par plan (Free/Pro/Enterprise)<br>• AI sentiment analysis sur feedbacks utilisateurs<br>• Feature adoption funnel analysis<br>• NPS tracking + thèmes extraits (AI Transformations) |
+| **Risk & Compliance** | • Multi-framework compliance (SOX, GDPR, ISO27001, PCI-DSS)<br>• AI extraction des findings d'audit<br>• Third-party risk scoring (vendors)<br>• Incident correlation avec contrôles échoués |
 | **HR Analytics** | • SCD Type 2 employee tracking<br>• AI exit interview analysis<br>• Predictive attrition + retention ROI<br>• Cohorte analysis (tenure, promotions) |
 
 ---
