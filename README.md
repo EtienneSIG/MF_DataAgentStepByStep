@@ -1,6 +1,6 @@
 # Microsoft Fabric - Démos Customer 360 & ESG
 
-**13 scénarios de démonstration** illustrant les capacités de Microsoft Fabric :
+**14 scénarios de démonstration** illustrant les capacités de Microsoft Fabric :
 - OneLake + Shortcuts
 - AI Shortcut Transformations (texte → données structurées)
 - Fabric Data Agent (questions en langage naturel)
@@ -36,6 +36,7 @@
 | **IT Ops & FinOps** | • Multi-cloud cost aggregation (Azure, AWS, GCP)<br>• Anomaly detection sur coûts<br>• Incident correlation avec coûts<br>• User activity monitoring (WAU, engagement) |
 | **Product Analytics** | • Churn prediction par plan (Free/Pro/Enterprise)<br>• AI sentiment analysis sur feedbacks utilisateurs<br>• Feature adoption funnel analysis<br>• NPS tracking + thèmes extraits (AI Transformations) |
 | **Risk & Compliance** | • Multi-framework compliance (SOX, GDPR, ISO27001, PCI-DSS)<br>• AI extraction des findings d'audit<br>• Third-party risk scoring (vendors)<br>• Incident correlation avec contrôles échoués |
+| **R&D & Quality** | • Test effectiveness analysis (DVT, PVT, Qualification)<br>• AI extraction engineering notes (root causes, design changes)<br>• Correlation test failures ↔ field returns<br>• Predictive quality analytics (FPY, defect density) |
 | **HR Analytics** | • SCD Type 2 employee tracking<br>• AI exit interview analysis<br>• Predictive attrition + retention ROI<br>• Cohorte analysis (tenure, promotions) |
 
 ---
