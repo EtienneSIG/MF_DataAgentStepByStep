@@ -1,6 +1,6 @@
 # Microsoft Fabric - Démos Customer 360 & ESG
 
-**10 scénarios de démonstration** illustrant les capacités de Microsoft Fabric :
+**12 scénarios de démonstration** illustrant les capacités de Microsoft Fabric :
 - OneLake + Shortcuts
 - AI Shortcut Transformations (texte → données structurées)
 - Fabric Data Agent (questions en langage naturel)
@@ -8,7 +8,7 @@
 
 ---
 
-## � Tableau Récapitulatif des Scénarios
+## 📊 Tableau Récapitulatif des Scénarios
 
 | # | Scénario | Cas d'Usage | Volumes Données | Métriques Clés | Persona | Documentation |
 |---|----------|-------------|-----------------|----------------|---------|---------------|
@@ -17,6 +17,8 @@
 | **3** | **📧 Marketing** | Attribution marketing + ROI | • 10K customers<br>• 60 campaigns<br>• 150K sends<br>• 50K orders | • Campaign ROI (+100-500%)<br>• Open Rate (~22%)<br>• CTR, Conversion<br>• CLV | Marketing & CRM Analyst | [📂 Dossier](https://github.com/EtienneSIG/MF_MarketingCampaign)|
 | **4** | **💰 Finance** | P&L + Budget vs Actual | • Actuals, Budget<br>• Invoices, Payments<br>• Cost Centers | • Gross Margin (40-45%)<br>• EBITDA, Net Income<br>• Budget Variance<br>• DSO (30-45 days) | Finance Controller | [📂 Dossier](https://github.com/EtienneSIG/MF_Finance)|
 | **5** | **🌱 ESG** | Carbon footprint + sustainability | • Scope 1/2/3<br>• 10 sites, 5 ans<br>• 100 suppliers<br>• Audits | • Carbon Footprint (CO2e)<br>• Carbon Intensity<br>• Renewable Energy %<br>• Supplier Risk | ESG & Sustainability Manager | [📂 Dossier](https://github.com/EtienneSIG/MF_ESG) |
+| **6** | **💻 IT Ops & FinOps** | Cloud cost optimization + performance | • 500 resources<br>• 5K users<br>• 500K cost events<br>• 300 incidents | • Cost per Resource<br>• WAU (Weekly Active Users)<br>• MTTR Incidents<br>• Anomaly Detection | Cloud FinOps Analyst | [📂 Dossier](../MF_ITOps) |
+| **7** | **📱 Product Analytics** | Product usage + churn prediction | • 500 accounts<br>• 5K users<br>• 50 features<br>• 500K usage events<br>• 1K feedbacks | • Churn Rate (50% Pro)<br>• MRR (~$300K)<br>• DAU/MAU Stickiness<br>• Feature Adoption<br>• NPS Score | Product Analyst | [📂 Dossier](../MF_Product) |
 | **10** | **👥 HR Analytics** | Employee lifecycle (hire to retire) | • 500 employees<br>• 4K events<br>• 2.5K trainings<br>• 200+ rapports | • Attrition (12-13%)<br>• Promotion Rate (10%)<br>• Training/FTE (42h)<br>• Mobility (14-15%) | HR Analytics AI Assistant | [📂 Dossier](https://github.com/EtienneSIG/MF_HR))|
 
 ---
@@ -30,6 +32,8 @@
 | **Marketing** | • Attribution marketing multi-touch<br>• ROI campaigns avec drill-down<br>• CLV prediction + segmentation |
 | **Finance** | • Budget variance analysis<br>• Cash flow forecasting<br>• P&L drill-down par cost center |
 | **ESG** | • Scope 1/2/3 emissions tracking<br>• Supplier risk scoring<br>• Carbon intensity KPIs + targets |
+| **IT Ops & FinOps** | • Multi-cloud cost aggregation (Azure, AWS, GCP)<br>• Anomaly detection sur coûts<br>• Incident correlation avec coûts<br>• User activity monitoring (WAU, engagement) |
+| **Product Analytics** | • Churn prediction par plan (Free/Pro/Enterprise)<br>• AI sentiment analysis sur feedbacks utilisateurs<br>• Feature adoption funnel analysis<br>• NPS tracking + thèmes extraits (AI Transformations) |
 | **HR Analytics** | • SCD Type 2 employee tracking<br>• AI exit interview analysis<br>• Predictive attrition + retention ROI<br>• Cohorte analysis (tenure, promotions) |
 
 ---
@@ -167,7 +171,91 @@
 **Persona Data Agent** : ESG & Sustainability Manager
 
 ---
+## 💻 Scenario 6 - IT Ops & FinOps
 
+**Cas d'usage** : Cloud cost optimization + performance monitoring multi-cloud
+
+**Données** :
+- **Cloud Resources** : 500 resources (Azure, AWS, GCP), 10 resource types, 5 regions
+- **Costs** : ~500 000 cost events (hourly granularity), usage metrics
+- **Users** : 5 000 cloud users, 150 teams, activity tracking
+- **Incidents** : 300 cloud incidents, MTTR tracking
+- **Texte** : Incident reports (AI Transformations pour root cause analysis)
+
+**Métriques clés** :
+- Cost per Resource, Cost per User, Cost per Team
+- WAU (Weekly Active Users), Engagement Score
+- MTTR (Mean Time To Resolve) Incidents
+- Cost Anomaly Detection (>20% variance)
+- RI/SP Coverage %, Idle Resources %
+
+**Liens** :
+- 📂 [Dossier Scenario 6](../MF_ITOps/)
+- 📄 [README](../MF_ITOps/README.md)
+- 📊 [Schéma Complet](../MF_ITOps/docs/schema.md)
+- 🎯 [Mesures DAX](../MF_ITOps/docs/dax_measures.md)
+- 🧪 [Validation Script](../MF_ITOps/src/validate_schema.py)
+- 🤖 [Data Agent Instructions](../MF_ITOps/docs/data_agent_instructions.md)
+- 📚 [15 Exemples Questions/Réponses](../MF_ITOps/docs/data_agent_examples.md)
+- 🎤 [15 Questions Démo](../MF_ITOps/docs/questions_demo.md)
+- 🎬 [Démo Story](../MF_ITOps/docs/demo_story.md)
+- ⚙️ [Guide Setup Fabric](../MF_ITOps/docs/fabric_setup.md)
+
+**Persona Data Agent** : Cloud FinOps Analyst
+
+**Points forts** :
+- ✨ Multi-cloud cost aggregation (Azure, AWS, GCP)
+- ✨ Anomaly detection automatique (ML-based sur variance >20%)
+- ✨ Correlation incidents ↔ coûts (impact financier des incidents)
+- ✨ AI root cause analysis sur incident reports
+- ✨ RI/SP optimization recommendations
+- ✨ Idle resource detection (cost waste)
+
+---
+
+## 📱 Scenario 7 - Product Usage Analytics
+
+**Cas d'usage** : Product analytics SaaS + churn prediction
+
+**Données** :
+- **Accounts** : 500 accounts (Free 40%, Pro 45%, Enterprise 15%)
+- **Users** : 5 000 users (admin 10%, power_user 30%, regular 60%)
+- **Product Features** : 50 features (5 catégories : Analytics, Collaboration, Automation, Integration, Admin)
+- **Usage Events** : ~500 000 events (page_view, feature_used, session_start/end)
+- **Subscriptions** : 500 subscriptions (MRR ~$300K total)
+- **Churn Events** : ~300 churns (raisons : price, features, complexity, competitor)
+- **Texte** : 1 000 user feedbacks + 24 release notes (AI Transformations)
+
+**Métriques clés** :
+- Churn Rate by Plan (Free 70%, Pro 50%, Enterprise 20%)
+- MRR, ARPU, LTV
+- DAU/MAU (Stickiness)
+- Feature Adoption Rate, Time to Activation
+- NPS Score, Sentiment Analysis (positive/neutral/negative)
+
+**Liens** :
+- 📂 [Dossier Scenario 7](../MF_Product/)
+- 📄 [README](../MF_Product/README.md)
+- 📊 [Schéma Complet](../MF_Product/docs/schema.md)
+- 🎯 [Mesures DAX](../MF_Product/docs/dax_measures.md)
+- 🧪 [Validation Script](../MF_Product/src/validate_schema.py)
+- 🤖 [Data Agent Instructions](../MF_Product/docs/data_agent_instructions.md)
+- 📚 [15 Exemples Questions/Réponses](../MF_Product/docs/data_agent_examples.md)
+- 🎤 [15 Questions Démo](../MF_Product/docs/questions_demo.md)
+- 🎬 [Démo Story "Le Churn qui Inquiète le CPO"](../MF_Product/docs/demo_story.md)
+- ⚙️ [Guide Setup Fabric](../MF_Product/docs/fabric_setup.md)
+
+**Persona Data Agent** : Product Analyst
+
+**Points forts** :
+- ✨ Churn analysis multi-dimensionnelle (par plan, feature, raison)
+- ✨ AI sentiment analysis sur 1000 feedbacks utilisateurs (NPS, thèmes)
+- ✨ Feature adoption funnel (activation J7/J14/J30/J90)
+- ✨ Upsell opportunities (Free → Pro qualified leads)
+- ✨ AI release impact analysis (adoption, sentiment post-release)
+- ✨ Comptes à risque scoring (usage patterns, predictive churn)
+
+---
 ## � Scenario 10 - HR Employee Lifecycle Analytics
 
 **Cas d'usage** : Analyse complète du cycle de vie des employés
@@ -333,6 +421,13 @@ Si fichiers TXT existants :
 | Finance | DSO | ~30-45 days |
 | ESG | Scope 3 % | ~70-80% du total |
 | ESG | Renewable Energy % | ~25-35% (en progression) |
+| IT Ops | Cost Anomalies | ~5-8% des resources (>20% variance) |
+| IT Ops | WAU | ~3,500 users (70% de 5K total) |
+| IT Ops | MTTR Incidents | ~4-6 heures |
+| Product | Churn Rate Pro | 50% (vs. target 5.5%) ⚠️ |
+| Product | MRR Total | ~$300K |
+| Product | DAU/MAU Stickiness | ~30% |
+| Product | Feature Adoption | 12-30% selon feature |
 | HR | Attrition Rate | ~12-13% (benchmark < 15%) |
 | HR | Promotion Rate | ~10% (benchmark 8-10%) |
 | HR | Training Hours/FTE | ~42h (benchmark ≥ 40h) |
