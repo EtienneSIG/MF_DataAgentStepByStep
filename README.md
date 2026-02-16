@@ -10,8 +10,9 @@
 
 ## 📊 Tableau Récapitulatif des Scénarios
 
-| # | Scénario | Cas d'Usage | Volumes Données | Métriques Clés | Persona | Documentation |
-|---|----------|-------------|-----------------|----------------|---------|---------------|
+| # | Scénario | Cas d'Usage | Volumes Données | Métriques Clés | Persona | Documentation |New/Old|
+|---|----------|-------------|-----------------|----------------|---------|---------------|-------|
+| **0** | **🏢 Full Company DT** | Digital Twin entreprise complète | • 17 gold tables<br>• 7 domaines métier<br>• 12,500 employés<br>• 8 sites production<br>• 42 DAX measures | • Total Revenue ($1.5B)<br>• Gross Margin (42%)<br>• OEE (85%)<br>• CSAT (88%)<br>• Carbon Emissions | C-Suite Executive | [📂 Dossier](https://github.com/EtienneSIG/MF_FullCompanyDT)|
 | **1** | **📞 Call Center** | Customer 360 + analyse appels | • 1K clients<br>• 15K commandes<br>• 2K appels<br>• 15 agents | • CSAT (70-80%)<br>• FCR (~70%)<br>• AHT<br>• Repeat Call Rate | Call Center Analyst | [📂 Dossier](https://github.com/EtienneSIG/MF_CallCenter) |
 | **2** | **🏭 Production** | Monitoring production + maintenance | • 3 plants, 6 lines<br>• 100 assets<br>• 4K batches<br>• 300 work orders | • OEE (75-80%)<br>• MTTR (100-120min)<br>• MTBF<br>• Downtime Cost | Production & Maintenance Analyst | [📂 Dossier](https://github.com/EtienneSIG/MF_SupplyMaintenance)|
 | **3** | **📧 Marketing** | Attribution marketing + ROI | • 10K customers<br>• 60 campaigns<br>• 150K sends<br>• 50K orders | • Campaign ROI (+100-500%)<br>• Open Rate (~22%)<br>• CTR, Conversion<br>• CLV | Marketing & CRM Analyst | [📂 Dossier](https://github.com/EtienneSIG/MF_MarketingCampaign)|
@@ -22,7 +23,7 @@
 | **8** | **⚖️ Risk & Compliance** | Risk management + audit compliance | • 150 controls<br>• 3K executions<br>• 200 incidents<br>• 100 vendors<br>• 100 audit reports | • Compliance Rate (~90%)<br>• MTTR by Severity<br>• Vendor Risk Score<br>• Incident Trends | Risk & Compliance Manager | [📂 Dossier](https://github.com/EtienneSIG//MF_RiskComplianceAudit) |
 | **9** | **🔬 R&D & Quality** | Product testing + quality analytics | • 50 designs<br>• 100 test campaigns<br>• 5K test results<br>• 300 defects<br>• 250 field returns | • First Pass Yield (95%)<br>• Field Return Rate (<2%)<br>• Test Escape Rate<br>• Defect Density | VP Engineering & Quality | [📂 Dossier](https://github.com/EtienneSIG/)/MF_R-D) |
 | **10** | **👥 HR Analytics** | Employee lifecycle (hire to retire) | • 500 employees<br>• 4K events<br>• 2.5K trainings<br>• 200+ rapports | • Attrition (12-13%)<br>• Promotion Rate (10%)<br>• Training/FTE (42h)<br>• Mobility (14-15%) | HR Analytics AI Assistant | [📂 Dossier](https://github.com/EtienneSIG/MF_HR)|
-| **11** | **🏢 Full Company DT** | Digital Twin entreprise complète | • 17 gold tables<br>• 7 domaines métier<br>• 12,500 employés<br>• 8 sites production<br>• 42 DAX measures | • Total Revenue ($1.5B)<br>• Gross Margin (42%)<br>• OEE (85%)<br>• CSAT (88%)<br>• Carbon Emissions | C-Suite Executive | [📂 Dossier](https://github.com/EtienneSIG/MF_FullCompanyDT)|
+
 
 ---
 
@@ -30,6 +31,7 @@
 
 | Scénario | Fonctionnalités Clés |
 |----------|----------------------|
+| **Full Company DT** | • 7 domaines métier intégrés (Sales, HR, Finance, Ops, CS, IT, ESG)<br>• Star schema complet avec 12 relationships<br>• 42 DAX measures par domaine<br>• Scénarios business cross-fonctionnels<br>• Analytics C-Suite (KPIs stratégiques) |
 | **Call Center** | • AI Transformations sur transcripts d'appels<br>• Analyse sentiment + PII redaction<br>• Customer 360 avec historique commandes |
 | **Production** | • OEE monitoring temps réel<br>• Maintenance prédictive<br>• Cost analysis (downtime, quality) |
 | **Marketing** | • Attribution marketing multi-touch<br>• ROI campaigns avec drill-down<br>• CLV prediction + segmentation |
@@ -40,7 +42,7 @@
 | **Risk & Compliance** | • Multi-framework compliance (SOX, GDPR, ISO27001, PCI-DSS)<br>• AI extraction des findings d'audit<br>• Third-party risk scoring (vendors)<br>• Incident correlation avec contrôles échoués |
 | **R&D & Quality** | • Test effectiveness analysis (DVT, PVT, Qualification)<br>• AI extraction engineering notes (root causes, design changes)<br>• Correlation test failures ↔ field returns<br>• Predictive quality analytics (FPY, defect density) |
 | **HR Analytics** | • SCD Type 2 employee tracking<br>• AI exit interview analysis<br>• Predictive attrition + retention ROI<br>• Cohorte analysis (tenure, promotions) |
-| **Full Company DT** | • 7 domaines métier intégrés (Sales, HR, Finance, Ops, CS, IT, ESG)<br>• Star schema complet avec 12 relationships<br>• 42 DAX measures par domaine<br>• Scénarios business cross-fonctionnels<br>• Analytics C-Suite (KPIs stratégiques) |
+
 ---
 
 ## 🧪 Tests Recommandés
@@ -74,6 +76,7 @@ Pour questions sur les scénarios :
 ---
 
 *Démonstrations Microsoft Fabric - Customer 360, Production, Marketing, Finance & ESG*
+
 
 
 
