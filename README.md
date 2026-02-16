@@ -1,6 +1,6 @@
 # Microsoft Fabric - Démos Customer 360 & ESG
 
-**14 scénarios de démonstration** illustrant les capacités de Microsoft Fabric :
+**15 scénarios de démonstration** illustrant les capacités de Microsoft Fabric :
 - OneLake + Shortcuts
 - AI Shortcut Transformations (texte → données structurées)
 - Fabric Data Agent (questions en langage naturel)
@@ -22,6 +22,7 @@
 | **8** | **⚖️ Risk & Compliance** | Risk management + audit compliance | • 150 controls<br>• 3K executions<br>• 200 incidents<br>• 100 vendors<br>• 100 audit reports | • Compliance Rate (~90%)<br>• MTTR by Severity<br>• Vendor Risk Score<br>• Incident Trends | Risk & Compliance Manager | [📂 Dossier](https://github.com/EtienneSIG//MF_RiskComplianceAudit) |
 | **9** | **🔬 R&D & Quality** | Product testing + quality analytics | • 50 designs<br>• 100 test campaigns<br>• 5K test results<br>• 300 defects<br>• 250 field returns | • First Pass Yield (95%)<br>• Field Return Rate (<2%)<br>• Test Escape Rate<br>• Defect Density | VP Engineering & Quality | [📂 Dossier](https://github.com/EtienneSIG/)/MF_R-D) |
 | **10** | **👥 HR Analytics** | Employee lifecycle (hire to retire) | • 500 employees<br>• 4K events<br>• 2.5K trainings<br>• 200+ rapports | • Attrition (12-13%)<br>• Promotion Rate (10%)<br>• Training/FTE (42h)<br>• Mobility (14-15%) | HR Analytics AI Assistant | [📂 Dossier](https://github.com/EtienneSIG/MF_HR)|
+| **11** | **🏢 Full Company DT** | Digital Twin entreprise complète | • 17 gold tables<br>• 7 domaines métier<br>• 12,500 employés<br>• 8 sites production<br>• 42 DAX measures | • Total Revenue ($1.5B)<br>• Gross Margin (42%)<br>• OEE (85%)<br>• CSAT (88%)<br>• Carbon Emissions | C-Suite Executive | [📂 Dossier](https://github.com/EtienneSIG/MF_FullCompanyDT)|
 
 ---
 
@@ -39,6 +40,7 @@
 | **Risk & Compliance** | • Multi-framework compliance (SOX, GDPR, ISO27001, PCI-DSS)<br>• AI extraction des findings d'audit<br>• Third-party risk scoring (vendors)<br>• Incident correlation avec contrôles échoués |
 | **R&D & Quality** | • Test effectiveness analysis (DVT, PVT, Qualification)<br>• AI extraction engineering notes (root causes, design changes)<br>• Correlation test failures ↔ field returns<br>• Predictive quality analytics (FPY, defect density) |
 | **HR Analytics** | • SCD Type 2 employee tracking<br>• AI exit interview analysis<br>• Predictive attrition + retention ROI<br>• Cohorte analysis (tenure, promotions) |
+| **Full Company DT** | • 7 domaines métier intégrés (Sales, HR, Finance, Ops, CS, IT, ESG)<br>• Star schema complet avec 12 relationships<br>• 42 DAX measures par domaine<br>• Scénarios business cross-fonctionnels<br>• Analytics C-Suite (KPIs stratégiques) |
 ---
 
 ## 🧪 Tests Recommandés
